@@ -1,0 +1,49 @@
+body {
+    background-color: #F7CE68;
+    background-image: linear-gradient(62deg, #F7CE68 0%, #FBAB7E 100%);    
+    font-family: Tahoma, sans-serif;
+    color: #005b85;
+}
+
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#title {
+    background-color: #005b85;
+}
+
+#title img{
+    filter:  brightness(0) invert(1);
+}
+
+.collapse a {
+    color: white;
+}
+
+#main{
+    background-color: #F7CE68;
+    background-image: linear-gradient(62deg, #F7CE68 0%, #FBAB7E 100%);    
+    width: 100%;
+    height: 615px;
+}
+
+.dropdown-menu {
+    background-color: #F9F2ED;
+}
+
+input {
+    transition: 250ms;
+    color:  #F9F2ED;
+    background-color: #fb8f51;
+    border: none;
+    border-radius: 100px;
+    width: 125px;
+    height: 75px;
+}
+
+input:hover {
+    transition: 250ms;
+    background-color: hsl(23, 91%, 60%);
+}
